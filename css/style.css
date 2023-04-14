@@ -1,0 +1,855 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1 {
+    background-color: rgba(205, 199, 199, 0.674);
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+
+.logo img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-image: url(/img/fondo-logo.jpg);
+}
+
+body {
+    background-image: url(/img/fondo.jpg);
+    font-family: 'kanit' sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgba(30, 35, 35, 0.595);
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.titulo-section {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.nav-list-items {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3em;
+    color: black;
+    justify-content: space-around;
+}
+
+.nav-list-items a:hover {
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgba(30, 35, 35, 0.595);
+    color: black;
+    font-size: 0.5rem;
+    text-decoration: none;
+    align-items: start;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+.footer-1 a:hover {
+    color: rgba(128, 128, 128, 0.575)
+}
+
+.footer-1 p {
+    display: inline;
+    color: black;
+    font-size: 0.5rem;
+}
+
+.footer-1 img {
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+
+
+.footer-2 p {
+    display: inline;
+    color: black;
+    font-size: 0.5rem;
+}
+
+.footer-2 img {
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+
+
+/*SECTION INDEX*/
+
+.img-index {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.img-index img {
+    width: 80%;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.contenedor-div {
+    font-size: 1rem;
+    padding: 0.75em;
+}
+
+.contenedor-div li {
+    font-size: 0.80rem;
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgba(205, 199, 199, 0.674);
+}
+
+/*SECTION AGROTURISMO*/
+
+.contenedor-div-agro {
+    padding: 1em;
+}
+
+.contenedor-div-agro iframe {
+    display: flex;
+    flex-direction: row;
+    border: solid 3px black;
+    height: 300px;
+    width: 100%;
+}
+
+.p-video-agro {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.contenedor-div-agro img {
+    display: none;
+}
+
+.img-agro {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.img-agro img {
+    width: 75%;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.p-img-agro {
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+/*SECTION CONTACTO*/
+
+.contacto img {
+    display: none;
+}
+
+.p-contacto-ubi {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.contacto-mapa {
+    display: block;
+    height: 500px;
+    width: 100%;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.contactanos .p-contacto-formulario {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1em;
+}
+
+.contactanos {
+    background-color: rgba(205, 199, 199, 0.674);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1rem;
+    padding: 2em;
+}
+
+.contactanos .formulario {
+    outline: none;
+    padding: 5px;
+}
+
+.boton-enviar {
+    display: flex;
+    padding-top: 1em;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.boton-enviar input {
+    font-size: 0.5rem;
+    background-color: rgba(207, 203, 203, 0.714);
+    padding: 0.5em;
+}
+
+.c-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-formulario label {
+    text-align: center;
+}
+
+.formulario {
+    padding: 2em;
+}
+
+/*SECTION NOSOTROS*/
+
+.nosotros-1 {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.nosotros-1 .p-nosotros-1 {
+    display: flex;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.nosotros-1 .img-nosotros-1 {
+    width: 80%;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.nosotros-2 .p-nosotros-2 {
+    display: flex;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.nosotros-2 {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.nosotros-2 img {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    border: solid 3px black;
+}
+
+.nosotros-1 .img-nosotros-destacada {
+    display: none;
+}
+
+.nosotros-2 .img1-nos-2-destacada {
+    display: none;
+}
+
+.nosotros-2 .img2-nos-2-destacada {
+    display: none;
+}
+
+/*PRODUCTOS*/
+
+.dulces .dulces1 p {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.dulces .dulces1 {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.dulces .dulces1 img {
+    width: 80%;
+    height: 90%;
+    border: 3px solid black;
+}
+
+.dulces .dulces2 {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(205, 199, 199, 0.674);
+}
+
+.dulces .dulces2 li {
+    font-size: 1rem;
+    padding: 0.5em;
+}
+
+.fruta p {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.fruta img {
+    width: 80%;
+    height: 80%;
+    border: 3px solid black;
+}
+
+.fruta {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.regionales p {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.regionales img {
+    width: 80%;
+    height: 90%;
+    border: 3px solid black;
+}
+
+.regionales {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+
+
+
+
+
+
+/*TABLET*/
+
+@media (min-width: 400px) {
+
+    /*INDEX*/
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .nav-list {
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .nav-list-items {
+        font-size: 1.3rem;
+        padding-left: 1.75em;
+        padding-right: 1.75em;
+        display: inline-block;
+        justify-content: space-around;
+    }
+
+    .titulo-section {
+        font-size: 1.3rem;
+        justify-items: center;
+    }
+
+    .contenedor-div li {
+        font-size: 1.3rem;
+    }
+
+    .img-index {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, minmax(300px, 20vh));
+    }
+
+    .img-index img {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    .img-destacada {
+        grid-row: span 2;
+        grid-column: span 2;
+        margin-left: 20px;
+    }
+
+    .footer {
+        background-color: rgba(30, 35, 35, 0.595);
+        color: black;
+        font-size: 1rem;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        padding: 3em;
+    }
+
+    .footer-2 p {
+        font-size: 1rem;
+    }
+
+    /*AGROTURISMO*/
+
+    .p-video-agro {
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .contenedor-div-agro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    }
+
+    .contenedor-div-agro .paseo {
+        display: grid;
+        border: 3px black solid;
+        width: 80%;
+        height: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .contenedor-div-agro iframe {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    .img-agro {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .img-agro img {
+        margin: 0 auto;
+        height: 80%;
+        width: 90%;
+    }
+
+    .p-img-agro {
+        display: flex;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 0.5em;
+    }
+
+    /*CONTACTO*/
+
+    .contacto {
+        padding: 10px;
+    }
+
+    .contacto .p-contacto-ubi {
+        font-size: 1.3rem;
+    }
+
+    .contacto .paisaje-contacto {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 500px;
+        border: solid 3px black;
+    }
+
+    .contactanos {
+        display: block;
+        width: 80%;
+        padding: 3em;
+    }
+
+    /*NOSOTROS*/
+
+    .nosotros-1 .p-nosotros-1 {
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .nosotros-1 .img-nosotros-1 {
+        width: 80%;
+        height: 90%;
+    }
+
+    .nosotros-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .nosotros-2 img {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    /*PRODUCTOS*/
+
+    .dulces .dulces1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 400px 400px;
+        margin: 0 auto;
+    }
+
+    .dulces1 .titulo-p1 {
+        grid-column: span 2;
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .dulces1 p {
+        font-size: 1.3rem;
+        padding: 1em;
+        grid-column: span 2;
+    }
+
+    .dulces1 img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .dulces .dulces2 li {
+        font-size: 1.3rem;
+    }
+
+    .fruta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 400px;
+        margin: 0 auto;
+    }
+
+    .fruta .titulo-p2 {
+        grid-column: span 2;
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .fruta p {
+        font-size: 1.3rem;
+        padding: 1em;
+        grid-column: span 2;
+    }
+
+    .fruta img {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .regionales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 400px;
+        margin: 0 auto;
+    }
+
+    .regionales .titulo-p3 {
+        grid-column: span 2;
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .regionales p {
+        font-size: 1.3rem;
+        padding: 1em;
+        grid-column: span 2;
+    }
+
+    .regionales img {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+/*PC*/
+
+@media (min-width: 1024px) {
+    /*INDEX*/
+
+    .img-index {
+        grid-template-columns: 2fr repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(300px, 20vh));
+    }
+
+    .img-destacada {
+        grid-column: span 1;
+        margin: 0 auto;
+    }
+
+    .nav-list-items {
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    /*AGROTURISMO*/
+
+    .contenedor-div-agro {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, minmax(500px, 20vh));
+    }
+
+    .contenedor-div-agro .fruta-crema {
+        display: grid;
+        border: 3px black solid;
+        width: 80%;
+        height: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .contenedor-div-agro iframe {
+        grid-column: span 2;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+    }
+
+    .img-agro {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(500px, 20vh));
+    }
+
+    .img-agro img {
+        width: 80%;
+        height: 90%;
+    }
+
+    .p-video-agro {
+        font-size: 1.5rem;
+    }
+
+    .p-img-agro {
+        font-size: 1.5rem;
+    }
+
+    /*CONTACTTO*/
+
+    .contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px 500px;
+        padding: 3em;
+        gap: 3em;
+    }
+
+    .contacto .p-contacto-ubi {
+        grid-column: span 2;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .contacto .paisaje-contacto {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        border: 3px solid black;
+    }
+
+    .contacto .paisaje-contacto2 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        border: 3px solid black;
+    }
+
+
+    .contacto .contacto-mapa {
+        display: flex;
+        grid-column: span 2;
+        height: 100%;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .contactanos {
+        width: 50%;
+    }
+
+    /*NOSOTROS*/
+
+    .nosotros-1 .img-nosotros-destacada {
+        display: flex;
+        border: solid black 3px;
+    }
+
+    .nosotros-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px;
+    }
+
+    .nosotros-1 .p-nosotros-1 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .nosotros-1 img {
+        width: 80%;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    .nosotros-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px 100px 500px;
+    }
+
+    .nosotros-2 .p-nosotros-2 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .nosotros-2 .img1-nos-2-destacada {
+        display: flex;
+        border: solid black 3px;
+        justify-content: center;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .nosotros-2 .img2-nos-2-destacada {
+        display: flex;
+        border: solid black 3px;
+        justify-content: center;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    /*PRODUCTOS*/
+
+    .dulces1 .titulo-p1 {
+        font-size: 1.5rem;
+    }
+
+    .dulces .dulces1 p {
+        font-size: 1.5rem;
+    }
+
+    .dulces .dulces2 li {
+        font-size: 1.5rem;
+    }
+
+    .fruta .titulo-p2 {
+        font-size: 1.5rem;
+    }
+
+    .fruta p {
+        font-size: 1.5rem;
+    }
+
+    .regionales .titulo-p3 {
+        font-size: 1.5rem;
+    }
+
+    .regionales p {
+        font-size: 1.5rem;
+    }
+
+}
