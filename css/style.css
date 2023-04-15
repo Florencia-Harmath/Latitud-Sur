@@ -367,7 +367,7 @@ header {
 
 .fruta img {
     width: 80%;
-    height: 80%;
+    height: 90%;
     border: 3px solid black;
 }
 
@@ -574,7 +574,7 @@ header {
     .dulces .dulces1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 400px 400px;
+        grid-template-rows: 100px 100px 650px 500px 500px;
         margin: 0 auto;
     }
 
@@ -596,6 +596,10 @@ header {
         margin: 0 auto;
     }
 
+    .dulces1 .img-dulce1 {
+        grid-column: span 2;
+    }
+
     .dulces .dulces2 li {
         font-size: 1.3rem;
     }
@@ -603,7 +607,7 @@ header {
     .fruta {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 400px;
+        grid-template-rows: 100px 100px 500px;
         margin: 0 auto;
     }
 
@@ -628,7 +632,7 @@ header {
     .regionales {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 400px;
+        grid-template-rows: 100px 150px 650px 500px 500px 500px;
         margin: 0 auto;
     }
 
@@ -648,6 +652,10 @@ header {
         width: 90%;
         height: 100%;
         margin: 0 auto;
+    }
+
+    .regionales .img-reg-destacada {
+        grid-column: span 2;
     }
 
 }
