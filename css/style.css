@@ -75,7 +75,7 @@ header {
 .footer {
     background-color: rgba(30, 35, 35, 0.595);
     color: black;
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-decoration: none;
     align-items: start;
     justify-content: space-around;
@@ -91,7 +91,7 @@ header {
 .footer-1 p {
     display: inline;
     color: black;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 .footer-1 img {
@@ -104,7 +104,7 @@ header {
 .footer-2 p {
     display: inline;
     color: black;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 .footer-2 img {
