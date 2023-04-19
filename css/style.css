@@ -413,6 +413,13 @@ header {
 
     /*INDEX*/
 
+    .logo img {
+        display: flex;
+        height: 45vh;
+        width: 100%;
+        align-items: center;
+    }
+
     h2 {
         font-size: 1.3rem;
     }
@@ -460,7 +467,7 @@ header {
     .footer {
         background-color: rgba(30, 35, 35, 0.595);
         color: black;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-decoration: none;
         align-items: center;
         justify-content: space-around;
@@ -469,8 +476,14 @@ header {
         padding: 3em;
     }
 
+    .footer-1 p {
+        display: inline;
+        color: black;
+        font-size: 1.2rem;
+    }
+
     .footer-2 p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /*AGROTURISMO*/
@@ -664,7 +677,7 @@ header {
 
 @media (min-width: 1024px) {
     /*INDEX*/
-
+    
     .img-index {
         grid-template-columns: 2fr repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(300px, 20vh));
