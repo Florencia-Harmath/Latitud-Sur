@@ -14,8 +14,8 @@
     }
 
     & img {
-        width: 80%;
-        height: 90%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
     }
 }
@@ -41,8 +41,8 @@
     padding: 2em;
 
     & img {
-        width: 80%;
-        height: 90%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
 
         & p {
@@ -63,16 +63,16 @@
     padding: 2em;
 
     & img {
-        width: 80%;
-        height: 90%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
+    }
 
-        & p {
-            margin: 0 auto;
-            font-size: 1rem;
-            padding: 1em;
-            text-align: center;
-        }
+    & p {
+        margin: 0 auto;
+        font-size: 1rem;
+        padding: 1em;
+        text-align: center;
     }
 }
 
@@ -80,7 +80,7 @@
     .dulces .dulces1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 500px 400px 400px;
+        grid-template-rows: 20vh 20vh 100vh 90vh 90vh;
         margin: 0 auto;
     }
 
@@ -88,6 +88,10 @@
         grid-column: span 2;
         font-size: 1.3rem;
         padding: 1em;
+    }
+
+    .dulces1 .img-dulce1 {
+        grid-column: span 2;
     }
 
     .dulces1 p {
@@ -102,11 +106,6 @@
         }
     }
 
-
-    .dulces1 .img-dulce1 {
-        grid-column: span 2;
-    }
-
     .dulces .dulces2 li {
         font-size: 1.3rem;
     }
@@ -114,19 +113,19 @@
     .fruta {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 400px;
+        grid-template-rows: 20vh 20vh 50vh;
         margin: 0 auto;
 
         & p {
             font-size: 1.3rem;
             padding: 1em;
             grid-column: span 2;
+        }
 
-            & img {
-                width: 80%;
-                height: 90%;
-                margin: 0 auto;
-            }
+        & img {
+            width: 80%;
+            height: 90%;
+            margin: 0 auto;
         }
     }
 
@@ -139,19 +138,19 @@
     .regionales {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 150px 500px 400px 400px 400px;
+        grid-template-rows: 20vh 25vh 100vh 90vh 90vh 90vh;
         margin: 0 auto;
 
         & p {
             font-size: 1.3rem;
             padding: 1em;
             grid-column: span 2;
+        }
 
-            & img {
-                width: 80%;
-                height: 90%;
-                margin: 0 auto;
-            }
+        & img {
+            width: 80%;
+            height: 90%;
+            margin: 0 auto;
         }
     }
 

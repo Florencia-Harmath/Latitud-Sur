@@ -10,8 +10,8 @@
 
 .contacto-mapa {
     display: block;
-    height: 500px;
-    width: 100%;
+    height: 80vh;
+    width: 90vh;
     padding: 2em;
     margin: 0 auto;
 }
@@ -34,7 +34,7 @@
 
 .contactanos .formulario {
     outline: none;
-    padding: 5px;
+    padding: .3em;
 }
 
 .c-formulario {
@@ -63,8 +63,8 @@
     .contacto .paisaje-contacto {
         display: block;
         margin: 0 auto;
-        width: 90%;
-        height: 500px;
+        width: 90vh;
+        height: 80vh;
         border: solid 3px black;
     }
 
@@ -81,7 +81,7 @@
     .contacto {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 500px 500px;
+        grid-template-rows: 30vh 80vh 80vh;
         padding: 3em;
         gap: 3em;
     }

@@ -73,8 +73,8 @@ body {
   padding: 2em;
 }
 .img-index img {
-  width: 80%;
-  height: 300px;
+  width: 80vh;
+  height: 80vh;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -95,11 +95,11 @@ body {
   .img-index {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, minmax(300px, 20vh));
+    grid-template-rows: repeat(4, minmax(55vh, 20vh));
   }
   .img-index img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .img-destacada {
@@ -107,11 +107,14 @@ body {
     grid-column: span 2;
     margin-left: 20px;
   }
+  .contenedor-div li {
+    font-size: 1.3rem;
+  }
 }
 @media (min-width: 1024px) {
   .img-index {
     grid-template-columns: 2fr repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(300px, 20vh));
+    grid-template-rows: repeat(2, minmax(50vh, 20vh));
   }
   .img-destacada {
     grid-column: span 1;
@@ -125,7 +128,7 @@ body {
   display: flex;
   flex-direction: row;
   border: solid 3px black;
-  height: 300px;
+  height: 50vh;
   width: 100%;
 }
 
@@ -149,7 +152,7 @@ body {
 }
 .img-agro img {
   width: 75%;
-  height: 300px;
+  height: 50vh;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -205,7 +208,7 @@ body {
 @media (min-width: 1024px) {
   .contenedor-div-agro {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, minmax(500px, 20vh));
+    grid-template-rows: repeat(2, minmax(80vh, 20vh));
   }
   .contenedor-div-agro iframe {
     grid-column: span 2;
@@ -223,7 +226,7 @@ body {
   }
   .img-agro {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(500px, 20vh));
+    grid-template-rows: repeat(2, minmax(80vh, 20vh));
   }
   .img-agro img {
     width: 80%;
@@ -248,8 +251,8 @@ body {
 
 .contacto-mapa {
   display: block;
-  height: 500px;
-  width: 100%;
+  height: 80vh;
+  width: 90vh;
   padding: 2em;
   margin: 0 auto;
 }
@@ -272,7 +275,7 @@ body {
 
 .contactanos .formulario {
   outline: none;
-  padding: 5px;
+  padding: 0.3em;
 }
 
 .c-formulario {
@@ -298,8 +301,8 @@ body {
   .contacto .paisaje-contacto {
     display: block;
     margin: 0 auto;
-    width: 90%;
-    height: 500px;
+    width: 90vh;
+    height: 80vh;
     border: solid 3px black;
   }
   .contactanos {
@@ -312,7 +315,7 @@ body {
   .contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 500px 500px;
+    grid-template-rows: 30vh 80vh 80vh;
     padding: 3em;
     gap: 3em;
   }
@@ -364,8 +367,8 @@ body {
 }
 
 .nosotros-1 .img-nosotros-1 {
-  width: 80%;
-  height: 300px;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
 
@@ -387,8 +390,8 @@ body {
 .nosotros-2 img {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  height: 300px;
+  width: 80vh;
+  height: 80vh;
   border: solid 3px black;
 }
 
@@ -410,8 +413,8 @@ body {
     padding: 1em;
   }
   .nosotros-1 .img-nosotros-1 {
-    width: 80%;
-    height: 90%;
+    width: 80vh;
+    height: 80vh;
   }
   .nosotros-2 {
     display: grid;
@@ -419,8 +422,8 @@ body {
     grid-template-rows: 1fr 1fr;
   }
   .nosotros-2 img {
-    width: 90%;
-    height: 100%;
+    width: 80vh;
+    height: 80vh;
     margin: 0 auto;
   }
 }
@@ -432,11 +435,11 @@ body {
   .nosotros-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 500px;
+    grid-template-rows: 20vh 100vh;
   }
   .nosotros-1 img {
-    width: 80%;
-    height: 90%;
+    width: 80vh;
+    height: 80vh;
     margin: 0 auto;
   }
   .nosotros-1 .p-nosotros-1 {
@@ -448,7 +451,7 @@ body {
   .nosotros-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 500px 100px 500px;
+    grid-template-rows: 20vh 100vh 20vh 100vh;
   }
   .nosotros-2 .p-nosotros-2 {
     grid-column: span 2;
@@ -460,16 +463,16 @@ body {
     display: flex;
     border: solid black 3px;
     justify-content: center;
-    width: 80%;
-    height: 500px;
+    width: 80vh;
+    height: 80vh;
     margin: 0 auto;
   }
   .nosotros-2 .img2-nos-2-destacada {
     display: flex;
     border: solid black 3px;
     justify-content: center;
-    width: 80%;
-    height: 500px;
+    width: 80vh;
+    height: 80vh;
     margin: 0 auto;
   }
 }
@@ -488,8 +491,8 @@ body {
   text-align: center;
 }
 .dulces .dulces1 img {
-  width: 80%;
-  height: 90%;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
 
@@ -513,8 +516,8 @@ body {
   padding: 2em;
 }
 .fruta img {
-  width: 80%;
-  height: 90%;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
 .fruta img p {
@@ -533,11 +536,11 @@ body {
   padding: 2em;
 }
 .regionales img {
-  width: 80%;
-  height: 90%;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
-.regionales img p {
+.regionales p {
   margin: 0 auto;
   font-size: 1rem;
   padding: 1em;
@@ -548,13 +551,16 @@ body {
   .dulces .dulces1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 500px 400px 400px;
+    grid-template-rows: 20vh 20vh 100vh 90vh 90vh;
     margin: 0 auto;
   }
   .dulces1 .titulo-p1 {
     grid-column: span 2;
     font-size: 1.3rem;
     padding: 1em;
+  }
+  .dulces1 .img-dulce1 {
+    grid-column: span 2;
   }
   .dulces1 p {
     font-size: 1.3rem;
@@ -566,16 +572,13 @@ body {
     height: 90px;
     margin: 0 auto;
   }
-  .dulces1 .img-dulce1 {
-    grid-column: span 2;
-  }
   .dulces .dulces2 li {
     font-size: 1.3rem;
   }
   .fruta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 400px;
+    grid-template-rows: 20vh 20vh 50vh;
     margin: 0 auto;
   }
   .fruta p {
@@ -583,7 +586,7 @@ body {
     padding: 1em;
     grid-column: span 2;
   }
-  .fruta p img {
+  .fruta img {
     width: 80%;
     height: 90%;
     margin: 0 auto;
@@ -596,7 +599,7 @@ body {
   .regionales {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 150px 500px 400px 400px 400px;
+    grid-template-rows: 20vh 25vh 100vh 90vh 90vh 90vh;
     margin: 0 auto;
   }
   .regionales p {
@@ -604,7 +607,7 @@ body {
     padding: 1em;
     grid-column: span 2;
   }
-  .regionales p img {
+  .regionales img {
     width: 80%;
     height: 90%;
     margin: 0 auto;
