@@ -102,4 +102,31 @@ header {
   height: 25px;
 }
 
+.img-index {
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.img-index img {
+  width: 80%;
+  height: 300px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.contenedor-div {
+  font-size: 1rem;
+  padding: 0.75em;
+}
+.contenedor-div li {
+  font-size: 0.8rem;
+  padding: 0.5em;
+  text-align: center;
+  background-color: rgba(205, 199, 199, 0.674);
+}
+
 /*# sourceMappingURL=style.css.map */
