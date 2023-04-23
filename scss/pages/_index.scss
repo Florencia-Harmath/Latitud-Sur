@@ -47,3 +47,16 @@
     }
 
 }
+
+@media (min-with: $MQ-pc) {
+    .img-index {
+        grid-template-columns: 2fr repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(300px, 20vh));
+    }
+
+    .img-destacada {
+        grid-column: span 1;
+        margin: 0 auto;
+    }
+
+}

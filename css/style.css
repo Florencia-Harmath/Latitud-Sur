@@ -132,6 +132,16 @@ body {
     margin-left: 20px;
   }
 }
+@media (min-with: 1024px) {
+  .img-index {
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(300px, 20vh));
+  }
+  .img-destacada {
+    grid-column: span 1;
+    margin: 0 auto;
+  }
+}
 .contenedor-div-agro {
   padding: 1em;
 }
