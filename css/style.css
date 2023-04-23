@@ -88,6 +88,14 @@ body {
     font-size: 1.3rem;
   }
 }
+@media (min-with: 1024px) {
+  .nav-list-items {
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
 .img-index {
   gap: 20px;
   align-items: center;
@@ -226,6 +234,40 @@ body {
     padding: 0.5em;
   }
 }
+@media (min-with: 1024px) {
+  .contenedor-div-agro {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(500px, 20vh));
+  }
+  .contenedor-div-agro iframe {
+    grid-column: span 2;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  .contenedor-div-agro .fruta-crema {
+    display: grid;
+    border: 3px black solid;
+    width: 80%;
+    height: 90%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .img-agro {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(500px, 20vh));
+  }
+  .img-agro img {
+    width: 80%;
+    height: 90%;
+  }
+  .p-video-agro {
+    font-size: 1.5rem;
+  }
+  .p-img-agro {
+    font-size: 1.5rem;
+  }
+}
 .contacto img {
   display: none;
 }
@@ -296,6 +338,45 @@ body {
     display: block;
     width: 80%;
     padding: 3em;
+  }
+}
+@media (min-with: 1024px) {
+  .contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px 500px;
+    padding: 3em;
+    gap: 3em;
+  }
+  .contacto .p-contacto-ubi {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+  .contacto .paisaje-contacto {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    border: 3px solid black;
+  }
+  .contacto .paisaje-contacto2 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    border: 3px solid black;
+  }
+  .contacto .contacto-mapa {
+    display: flex;
+    grid-column: span 2;
+    height: 100%;
+    width: 90%;
+    justify-content: center;
+  }
+  .contactanos {
+    width: 50%;
   }
 }
 .nosotros-1 {
@@ -372,6 +453,55 @@ body {
   .nosotros-2 img {
     width: 90%;
     height: 100%;
+    margin: 0 auto;
+  }
+}
+@media (min-with: 1024px) {
+  .nosotros-1 .img-nosotros-destacada {
+    display: flex;
+    border: solid black 3px;
+  }
+  .nosotros-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px;
+  }
+  .nosotros-1 img {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .nosotros-1 .p-nosotros-1 {
+    grid-column: span 2;
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+  }
+  .nosotros-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px 100px 500px;
+  }
+  .nosotros-2 .p-nosotros-2 {
+    grid-column: span 2;
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+  }
+  .nosotros-2 .img1-nos-2-destacada {
+    display: flex;
+    border: solid black 3px;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .nosotros-2 .img2-nos-2-destacada {
+    display: flex;
+    border: solid black 3px;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
     margin: 0 auto;
   }
 }
@@ -514,6 +644,80 @@ body {
   .regionales .titulo-p3 {
     grid-column: span 2;
     font-size: 1.3rem;
+    padding: 1em;
+  }
+  .regionales .img-reg-destacada {
+    grid-column: span 2;
+  }
+}
+@media (min-with: 1024px) {
+  .dulces .dulces1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 650px 500px 500px;
+    margin: 0 auto;
+  }
+  .dulces1 .titulo-p1 {
+    grid-column: span 2;
+    font-size: 1.5rem;
+    padding: 1em;
+  }
+  .dulces1 p {
+    font-size: 1.5rem;
+    padding: 1em;
+    grid-column: span 2;
+  }
+  .dulces1 p img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .dulces1 .img-dulce1 {
+    grid-column: span 2;
+  }
+  .dulces .dulces2 li {
+    font-size: 1.3rem;
+  }
+  .fruta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 500px;
+    margin: 0 auto;
+  }
+  .fruta p {
+    font-size: 1.5rem;
+    padding: 1em;
+    grid-column: span 2;
+  }
+  .fruta p img {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .fruta .titulo-p2 {
+    grid-column: span 2;
+    font-size: 1.3rem;
+    padding: 1em;
+  }
+  .regionales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 150px 650px 500px 500px 500px;
+    margin: 0 auto;
+  }
+  .regionales p {
+    font-size: 1.5rem;
+    padding: 1em;
+    grid-column: span 2;
+  }
+  .regionales img {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .regionales .titulo-p3 {
+    grid-column: span 2;
+    font-size: 1.5rem;
     padding: 1em;
   }
   .regionales .img-reg-destacada {

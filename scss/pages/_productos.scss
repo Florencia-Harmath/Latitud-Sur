@@ -166,3 +166,94 @@
     }
 
 }
+
+@media (min-with: $MQ-pc) {
+    .dulces .dulces1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 650px 500px 500px;
+        margin: 0 auto;
+    }
+
+    .dulces1 .titulo-p1 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+    }
+
+    .dulces1 p {
+        font-size: 1.5rem;
+        padding: 1em;
+        grid-column: span 2;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .dulces1 .img-dulce1 {
+        grid-column: span 2;
+    }
+
+    .dulces .dulces2 li {
+        font-size: 1.3rem;
+    }
+
+    .fruta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 500px;
+        margin: 0 auto;
+
+        & p {
+            font-size: 1.5rem;
+            padding: 1em;
+            grid-column: span 2;
+
+            & img {
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+
+    .fruta .titulo-p2 {
+        grid-column: span 2;
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .regionales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 150px 650px 500px 500px 500px;
+        margin: 0 auto;
+
+        & p {
+            font-size: 1.5rem;
+            padding: 1em;
+            grid-column: span 2;
+        }
+
+        & img {
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .regionales .titulo-p3 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+    }
+
+    .regionales .img-reg-destacada {
+        grid-column: span 2;
+    }
+
+}

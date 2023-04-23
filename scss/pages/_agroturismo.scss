@@ -92,3 +92,45 @@
     }
 
 }
+
+@media (min-with: $MQ-pc) {
+    .contenedor-div-agro {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, minmax(500px, 20vh));
+
+        & iframe {
+            grid-column: span 2;
+            align-items: center;
+            width: 80%;
+            height: 100%;
+        }
+    }
+
+    .contenedor-div-agro .fruta-crema {
+        display: grid;
+        border: 3px black solid;
+        width: 80%;
+        height: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .img-agro {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(500px, 20vh));
+
+        & img {
+            width: 80%;
+            height: 90%;
+        }
+    }
+
+    .p-video-agro {
+        font-size: 1.5rem;
+    }
+
+    .p-img-agro {
+        font-size: 1.5rem;
+    }
+
+}

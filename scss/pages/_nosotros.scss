@@ -80,3 +80,61 @@
     }
 
 }
+
+@media (min-with: $MQ-pc) {
+    .nosotros-1 .img-nosotros-destacada {
+        display: flex;
+        border: solid black 3px;
+    }
+
+    .nosotros-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px;
+
+        & img {
+            width: 80%;
+            height: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    .nosotros-1 .p-nosotros-1 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .nosotros-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px 100px 500px;
+    }
+
+    .nosotros-2 .p-nosotros-2 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .nosotros-2 .img1-nos-2-destacada {
+        display: flex;
+        border: solid black 3px;
+        justify-content: center;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .nosotros-2 .img2-nos-2-destacada {
+        display: flex;
+        border: solid black 3px;
+        justify-content: center;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+}

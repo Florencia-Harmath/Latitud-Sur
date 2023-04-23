@@ -100,3 +100,13 @@ body {
     }
 
 }
+
+@media (min-with: $MQ-pc) {
+    .nav-list-items {
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+}
