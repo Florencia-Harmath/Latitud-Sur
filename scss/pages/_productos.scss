@@ -1,0 +1,77 @@
+.dulces .dulces1 {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+    & p {
+        margin: 0 auto;
+        font-size: 1rem;
+        padding: 1em;
+        text-align: center;
+    }
+
+    & img {
+        width: 80%;
+        height: 90%;
+        border: 3px solid black;
+    }
+}
+
+.dulces .dulces2 {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(205, 199, 199, 0.674);
+
+    & li {
+        font-size: 1rem;
+        padding: 0.5em;
+    }
+}
+
+.fruta {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+    & img {
+        width: 80%;
+        height: 90%;
+        border: 3px solid black;
+
+        & p {
+            margin: 0 auto;
+            font-size: 1rem;
+            padding: 1em;
+            text-align: center;
+        }
+    }
+}
+
+.regionales {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+    & img {
+        width: 80%;
+        height: 90%;
+        border: 3px solid black;
+
+        & p {
+            margin: 0 auto;
+            font-size: 1rem;
+            padding: 1em;
+            text-align: center;
+        }
+    }
+}
