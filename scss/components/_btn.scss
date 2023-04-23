@@ -1,0 +1,12 @@
+.boton-enviar {
+    display: flex;
+    padding-top: 1em;
+    justify-content: center;
+    border-radius: 15px;
+
+    & input {
+        font-size: 0.5rem;
+        background-color: rgba(207, 203, 203, 0.714);
+        padding: 0.5em;
+    }
+}

@@ -42,12 +42,6 @@ body {
     font-family: 'kanit' sans-serif;
 }
 
-header {
-    background-color: rgba(30, 35, 35, 0.595);
-    padding: 0.5em;
-    font-size: 1rem;
-}
-
 .titulo-section {
     text-align: center;
     font-size: 1rem;
@@ -65,47 +59,6 @@ header {
 
     & a:hover {
         color: white;
-    }
-}
-
-.footer {
-    background-color: rgba(30, 35, 35, 0.595);
-    color: black;
-    font-size: 1rem;
-    text-decoration: none;
-    align-items: start;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    padding: 5em;
-}
-
-.footer-1 p {
-    display: inline;
-    color: black;
-    font-size: 1rem;
-
-    & img {
-        display: inline;
-        width: 25px;
-        height: 25px;
-
-        & a:hover {
-            color: rgba(128, 128, 128, 0.575);
-        }
-
-    }
-}
-
-.footer-2 p {
-    display: inline;
-    color: black;
-    font-size: 1rem;
-
-    & img {
-        display: inline;
-        width: 25px;
-        height: 25px;
     }
 }
 
