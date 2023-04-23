@@ -50,3 +50,28 @@
 .formulario {
     padding: 2em;
 }
+
+@media (min-with: $MQ-tablet) {
+    .contacto {
+        padding: 10px;
+    }
+
+    .contacto .p-contacto-ubi {
+        font-size: 1.3rem;
+    }
+
+    .contacto .paisaje-contacto {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 500px;
+        border: solid 3px black;
+    }
+
+    .contactanos {
+        display: block;
+        width: 80%;
+        padding: 3em;
+    }
+
+}

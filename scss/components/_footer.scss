@@ -39,3 +39,27 @@
     }
 }
 
+@media (min-with: $MQ-tablet) {
+    .footer {
+        background-color: rgba(30, 35, 35, 0.595);
+        color: black;
+        font-size: 1.2rem;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        padding: 3em;
+    }
+
+    .footer-1 p {
+        display: inline;
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    .footer-2 p {
+        font-size: 1.2rem;
+    }
+
+}

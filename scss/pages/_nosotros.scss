@@ -55,3 +55,28 @@
 .nosotros-2 .img2-nos-2-destacada {
     display: none;
 }
+
+@media (min-with: $MQ-tablet) {
+    .nosotros-1 .p-nosotros-1 {
+        font-size: 1.3rem;
+        padding: 1em;
+    }
+
+    .nosotros-1 .img-nosotros-1 {
+        width: 80%;
+        height: 90%;
+    }
+
+    .nosotros-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        & img {
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    }
+
+}
