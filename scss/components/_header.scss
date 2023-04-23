@@ -5,3 +5,39 @@ header {
     font-size: 1rem;
 }
 
+@media (min-with: $MQ-tablet) {
+    
+    .logo img {
+            height: 45vh;
+            width: 100%;      
+        }
+    
+   
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .nav-list {
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .nav-list-items {
+        font-size: 1.3rem;
+        padding-left: 1.75em;
+        padding-right: 1.75em;
+        display: inline-block;
+        justify-content: space-around;
+    }
+
+    .titulo-section {
+        font-size: 1.3rem;
+        justify-items: center;
+    }
+
+    .contenedor-div li {
+        font-size: 1.3rem;
+    }
+
+}
+

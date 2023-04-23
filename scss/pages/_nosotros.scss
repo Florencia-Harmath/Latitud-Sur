@@ -56,7 +56,7 @@
     display: none;
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
     .nosotros-1 .p-nosotros-1 {
         font-size: 1.3rem;
         padding: 1em;
@@ -81,7 +81,7 @@
 
 }
 
-@media (min-with: $MQ-pc) {
+@media (min-width: $MQ-pc) {
     .nosotros-1 .img-nosotros-destacada {
         display: flex;
         border: solid black 3px;

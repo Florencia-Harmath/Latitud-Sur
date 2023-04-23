@@ -44,7 +44,7 @@
     padding: 1em;
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
     .p-video-agro {
         font-size: 1.3rem;
         padding: 1em;
@@ -93,7 +93,7 @@
 
 }
 
-@media (min-with: $MQ-pc) {
+@media (min-width: $MQ-pc) {
     .contenedor-div-agro {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(2, minmax(500px, 20vh));

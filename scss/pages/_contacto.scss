@@ -51,7 +51,7 @@
     padding: 2em;
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
     .contacto {
         padding: 10px;
     }
@@ -77,7 +77,7 @@
 }
 
 
-@media (min-with: $MQ-pc) {
+@media (min-width: $MQ-pc) {
     .contacto {
         display: grid;
         grid-template-columns: 1fr 1fr;

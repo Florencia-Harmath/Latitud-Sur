@@ -65,14 +65,14 @@ body {
     }
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
+    
     .logo img {
-        display: flex;
-        height: 45vh;
-        width: 100%;
-        align-items: center;
-    }
-
+            height: 45vh;
+            width: 100%;      
+        }
+    
+   
     h2 {
         font-size: 1.3rem;
     }
@@ -101,7 +101,8 @@ body {
 
 }
 
-@media (min-with: $MQ-pc) {
+
+@media (min-width: $MQ-pc) {
     .nav-list-items {
         font-size: 1.5rem;
         padding: 1em;

@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
     .img-index {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -48,7 +48,7 @@
 
 }
 
-@media (min-with: $MQ-pc) {
+@media (min-width: $MQ-pc) {
     .img-index {
         grid-template-columns: 2fr repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(300px, 20vh));

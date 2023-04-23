@@ -76,7 +76,7 @@
     }
 }
 
-@media (min-with: $MQ-tablet) {
+@media (min-width: $MQ-tablet) {
     .dulces .dulces1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -167,7 +167,7 @@
 
 }
 
-@media (min-with: $MQ-pc) {
+@media (min-width: $MQ-pc) {
     .dulces .dulces1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
