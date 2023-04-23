@@ -48,17 +48,6 @@ body {
   margin-bottom: 1em;
 }
 
-.nav-list-items {
-  font-size: 1rem;
-  text-align: center;
-  padding: 0.3em;
-  color: black;
-  justify-content: space-around;
-}
-.nav-list-items a:hover {
-  color: white;
-}
-
 @media (min-width: 600px) {
   .logo img {
     height: 45vh;
@@ -67,31 +56,12 @@ body {
   h2 {
     font-size: 1.3rem;
   }
-  .nav-list {
-    text-align: center;
-    justify-content: space-evenly;
-  }
-  .nav-list-items {
-    font-size: 1.3rem;
-    padding-left: 1.75em;
-    padding-right: 1.75em;
-    display: inline-block;
-    justify-content: space-around;
-  }
   .titulo-section {
     font-size: 1.3rem;
     justify-items: center;
   }
   .contenedor-div li {
     font-size: 1.3rem;
-  }
-}
-@media (min-width: 1024px) {
-  .nav-list-items {
-    font-size: 1.5rem;
-    padding: 1em;
-    text-align: center;
-    justify-content: space-around;
   }
 }
 .img-index {
@@ -740,14 +710,18 @@ header {
   font-size: 1rem;
 }
 
-@media (min-with: 600px) {
-  .logo img {
-    height: 45vh;
-    width: 100%;
-  }
-  h2 {
-    font-size: 1.3rem;
-  }
+.nav-list-items {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.3em;
+  color: black;
+  justify-content: space-around;
+}
+.nav-list-items a:hover {
+  color: white;
+}
+
+@media (min-width: 600px) {
   .nav-list {
     text-align: center;
     justify-content: space-evenly;
@@ -759,12 +733,13 @@ header {
     display: inline-block;
     justify-content: space-around;
   }
-  .titulo-section {
-    font-size: 1.3rem;
-    justify-items: center;
-  }
-  .contenedor-div li {
-    font-size: 1.3rem;
+}
+@media (min-width: 1024px) {
+  .nav-list-items {
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+    justify-content: space-around;
   }
 }
 .footer {
@@ -789,8 +764,8 @@ header {
 }
 .footer-1 img {
   display: inline;
-  width: 25px;
-  height: 25px;
+  width: 5vh;
+  height: 5vh;
 }
 
 .footer-2 p {
@@ -800,8 +775,8 @@ header {
 }
 .footer-2 img {
   display: inline;
-  width: 25px;
-  height: 25px;
+  width: 5vh;
+  height: 5vh;
 }
 
 @media (min-width: 600px) {

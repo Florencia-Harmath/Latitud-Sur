@@ -1,22 +1,22 @@
-
 header {
     background-color: rgba(30, 35, 35, 0.595);
     padding: 0.5em;
     font-size: 1rem;
 }
 
-@media (min-with: $MQ-tablet) {
-    
-    .logo img {
-            height: 45vh;
-            width: 100%;      
-        }
-    
-   
-    h2 {
-        font-size: 1.3rem;
-    }
+.nav-list-items {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3em;
+    color: black;
+    justify-content: space-around;
 
+    & a:hover {
+        color: white;
+    }
+}
+
+@media (min-width: $MQ-tablet) {
     .nav-list {
         text-align: center;
         justify-content: space-evenly;
@@ -29,15 +29,14 @@ header {
         display: inline-block;
         justify-content: space-around;
     }
+}
 
-    .titulo-section {
-        font-size: 1.3rem;
-        justify-items: center;
-    }
-
-    .contenedor-div li {
-        font-size: 1.3rem;
+@media (min-width: $MQ-pc) {
+    .nav-list-items {
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
+        justify-content: space-around;
     }
 
 }
-
