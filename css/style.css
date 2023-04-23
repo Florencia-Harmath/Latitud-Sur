@@ -225,4 +225,61 @@ header {
   padding: 2em;
 }
 
+.nosotros-1 {
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.nosotros-1 .p-nosotros-1 {
+  display: flex;
+  font-size: 1rem;
+  padding: 1em;
+  text-align: center;
+}
+
+.nosotros-1 .img-nosotros-1 {
+  width: 80%;
+  height: 300px;
+  border: 3px solid black;
+}
+
+.nosotros-2 .p-nosotros-2 {
+  display: flex;
+  font-size: 1rem;
+  padding: 1em;
+  text-align: center;
+}
+
+.nosotros-2 {
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.nosotros-2 img {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 300px;
+  border: solid 3px black;
+}
+
+.nosotros-1 .img-nosotros-destacada {
+  display: none;
+}
+
+.nosotros-2 .img1-nos-2-destacada {
+  display: none;
+}
+
+.nosotros-2 .img2-nos-2-destacada {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
