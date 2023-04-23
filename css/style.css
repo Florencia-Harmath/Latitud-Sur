@@ -129,4 +129,48 @@ header {
   background-color: rgba(205, 199, 199, 0.674);
 }
 
+.contenedor-div-agro {
+  padding: 1em;
+}
+.contenedor-div-agro iframe {
+  display: flex;
+  flex-direction: row;
+  border: solid 3px black;
+  height: 300px;
+  width: 100%;
+}
+
+.p-video-agro {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+.contenedor-div-agro img {
+  display: none;
+}
+
+.img-agro {
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.img-agro img {
+  width: 75%;
+  height: 300px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.p-img-agro {
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
