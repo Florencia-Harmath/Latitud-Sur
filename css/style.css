@@ -482,7 +482,7 @@ body {
   justify-content: space-around;
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding: 1em;
 }
 .dulces .dulces1 p {
   margin: 0 auto;
@@ -520,7 +520,7 @@ body {
   height: 80vh;
   border: 3px solid black;
 }
-.fruta img p {
+.fruta p {
   margin: 0 auto;
   font-size: 1rem;
   padding: 1em;
@@ -543,7 +543,6 @@ body {
 .regionales p {
   margin: 0 auto;
   font-size: 1rem;
-  padding: 1em;
   text-align: center;
 }
 
@@ -551,7 +550,18 @@ body {
   .dulces .dulces1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 20vh 100vh 90vh 90vh;
+    grid-template-rows: 15vh 20vh 80vh 80vh 80vh;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .dulces .dulces1 p {
+    font-size: 1.3rem;
+    padding: 1em;
+    grid-column: span 2;
+  }
+  .dulces .dulces1 img {
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
   }
   .dulces1 .titulo-p1 {
@@ -562,23 +572,13 @@ body {
   .dulces1 .img-dulce1 {
     grid-column: span 2;
   }
-  .dulces1 p {
-    font-size: 1.3rem;
-    padding: 1em;
-    grid-column: span 2;
-  }
-  .dulces1 p img {
-    width: 80%;
-    height: 90px;
-    margin: 0 auto;
-  }
   .dulces .dulces2 li {
     font-size: 1.3rem;
   }
   .fruta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 20vh 50vh;
+    grid-template-rows: 15vh 15vh 80vh;
     margin: 0 auto;
   }
   .fruta p {
@@ -587,8 +587,8 @@ body {
     grid-column: span 2;
   }
   .fruta img {
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
   }
   .fruta .titulo-p2 {
@@ -599,7 +599,7 @@ body {
   .regionales {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 25vh 100vh 90vh 90vh 90vh;
+    grid-template-rows: 15vh 20vh 80vh 80vh 80vh 80vh;
     margin: 0 auto;
   }
   .regionales p {
@@ -615,7 +615,6 @@ body {
   .regionales .titulo-p3 {
     grid-column: span 2;
     font-size: 1.3rem;
-    padding: 1em;
   }
   .regionales .img-reg-destacada {
     grid-column: span 2;
@@ -625,25 +624,16 @@ body {
   .dulces .dulces1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 650px 500px 500px;
+    grid-template-rows: 15vh 20vh 80vh 80vh 80vh;
     margin: 0 auto;
   }
   .dulces1 .titulo-p1 {
     grid-column: span 2;
     font-size: 1.5rem;
+  }
+  .dulces .dulces1 p {
+    font-size: 1.3rem;
     padding: 1em;
-  }
-  .dulces1 p {
-    font-size: 1.5rem;
-    padding: 1em;
-    grid-column: span 2;
-  }
-  .dulces1 p img {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-  }
-  .dulces1 .img-dulce1 {
     grid-column: span 2;
   }
   .dulces .dulces2 li {
@@ -652,7 +642,7 @@ body {
   .fruta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 500px;
+    grid-template-rows: 15vh 20vh 80vh;
     margin: 0 auto;
   }
   .fruta p {
@@ -673,7 +663,7 @@ body {
   .regionales {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 150px 650px 500px 500px 500px;
+    grid-template-rows: 15vh 20vh 80vh 80vh 80vh 80vh;
     margin: 0 auto;
   }
   .regionales p {
@@ -762,7 +752,7 @@ header {
   color: black;
   font-size: 1rem;
 }
-.footer-1 p a:hover {
+.footer-1 a:hover {
   color: rgba(128, 128, 128, 0.575);
 }
 .footer-1 img {

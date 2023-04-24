@@ -15,11 +15,12 @@
         display: inline;
         color: black;
         font-size: 1rem;
-
-        & a:hover {
-            color: rgba(128, 128, 128, 0.575);
-        }
     }
+
+    & a:hover {
+        color: rgba(128, 128, 128, 0.575);
+    }
+
 
     img {
         display: inline;
