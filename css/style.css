@@ -33,11 +33,12 @@ h2 {
   height: 100%;
   width: 100%;
   align-items: center;
-  background-image: url(../img/logo-fondo.jpg);
+  background: linear-gradient(to top, rgb(216, 211, 211) 0% 80%, rgb(141, 121, 121));
 }
 
 body {
   font-family: "kanit" sans-serif;
+  background: linear-gradient(rgb(216, 211, 211) 0% 60%, rgb(141, 121, 121));
 }
 
 .titulo-section {
