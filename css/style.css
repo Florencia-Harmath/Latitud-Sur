@@ -129,14 +129,15 @@ body {
   display: flex;
   flex-direction: row;
   border: solid 3px black;
-  height: 50vh;
-  width: 100%;
+  height: 80vh;
+  width: 80vh;
+  margin: 0 auto;
 }
 
 .p-video-agro {
   text-align: center;
   font-size: 1rem;
-  padding: 1em;
+  padding: 3em;
 }
 
 .contenedor-div-agro img {
@@ -152,8 +153,8 @@ body {
   padding: 2em;
 }
 .img-agro img {
-  width: 75%;
-  height: 50vh;
+  width: 80vh;
+  height: 80vh;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -163,75 +164,79 @@ body {
   display: flex;
   text-align: center;
   font-size: 1rem;
-  padding: 1em;
+  padding: 3em;
 }
 
 @media (min-width: 600px) {
   .p-video-agro {
     font-size: 1.3rem;
-    padding: 1em;
   }
   .contenedor-div-agro {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
+    gap: 20px;
   }
   .contenedor-div-agro iframe {
     width: 90%;
-    height: 90%;
+    height: 80%;
     margin: 0 auto;
   }
   .contenedor-div-agro .paseo {
     display: grid;
     border: 3px black solid;
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 80%;
     justify-content: center;
     margin: 0 auto;
   }
   .img-agro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(55vh, 20vh));
+    gap: 20px;
   }
   .img-agro img {
     margin: 0 auto;
-    height: 80%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
   }
   .p-img-agro {
     display: flex;
     text-align: center;
     font-size: 1.3rem;
-    padding: 0.5em;
   }
 }
 @media (min-width: 1024px) {
+  .contenedor-div-agro .fruta-crema {
+    display: grid;
+    border: solid black 3px;
+    width: 90%;
+    height: 80%;
+  }
   .contenedor-div-agro {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, minmax(80vh, 20vh));
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(80vh, 60vh));
+    gap: 20px;
   }
   .contenedor-div-agro iframe {
     grid-column: span 2;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 100%;
   }
-  .contenedor-div-agro .fruta-crema {
-    display: grid;
-    border: 3px black solid;
-    width: 80%;
-    height: 90%;
-    justify-content: center;
-    margin: 0 auto;
+  .contenedor-div-agro img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
   }
   .img-agro {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(80vh, 20vh));
+    grid-template-rows: repeat(2, minmax(60vh, 20vh));
   }
   .img-agro img {
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 100%;
   }
   .p-video-agro {
     font-size: 1.5rem;
@@ -253,7 +258,7 @@ body {
 .contacto-mapa {
   display: block;
   height: 80vh;
-  width: 90vh;
+  width: 80vh;
   padding: 2em;
   margin: 0 auto;
 }
@@ -296,6 +301,11 @@ body {
   .contacto {
     padding: 10px;
   }
+  .contacto-mapa {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+  }
   .contacto .p-contacto-ubi {
     font-size: 1.3rem;
   }
@@ -308,7 +318,7 @@ body {
   }
   .contactanos {
     display: block;
-    width: 80%;
+    width: 70%;
     padding: 3em;
   }
 }
@@ -316,15 +326,13 @@ body {
   .contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30vh 80vh 80vh;
+    grid-template-rows: 10vh 20vh 80vh 80vh;
     padding: 3em;
     gap: 3em;
   }
-  .contacto .p-contacto-ubi {
+  .p-contacto-ubi {
     grid-column: span 2;
-    text-align: center;
     font-size: 1.5rem;
-    margin: 0 auto;
   }
   .contacto .paisaje-contacto {
     display: flex;
@@ -550,28 +558,31 @@ body {
 @media (min-width: 600px) {
   .dulces .dulces1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vh 20vh 80vh 80vh 80vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, minmax(65vh, 20vh));
     margin: 0 auto;
     padding: 1em;
   }
-  .dulces .dulces1 p {
-    font-size: 1.3rem;
-    padding: 1em;
-    grid-column: span 2;
-  }
   .dulces .dulces1 img {
-    width: 90%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
   }
-  .dulces1 .titulo-p1 {
-    grid-column: span 2;
-    font-size: 1.3rem;
-    padding: 1em;
-  }
   .dulces1 .img-dulce1 {
     grid-column: span 2;
+    grid-row: span 2;
+  }
+  .dulces .titulo-p1 {
+    font-size: 1.3rem;
+    padding: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .dulces p {
+    font-size: 1.3rem;
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
   }
   .dulces .dulces2 li {
     font-size: 1.3rem;
@@ -589,7 +600,7 @@ body {
   }
   .fruta img {
     width: 90%;
-    height: 100%;
+    height: 90%;
     margin: 0 auto;
   }
   .fruta .titulo-p2 {
@@ -599,46 +610,46 @@ body {
   }
   .regionales {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vh 20vh 80vh 80vh 80vh 80vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, minmax(65vh, 20vh));
     margin: 0 auto;
-  }
-  .regionales p {
-    font-size: 1.3rem;
-    padding: 1em;
-    grid-column: span 2;
   }
   .regionales img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
-  .regionales .titulo-p3 {
-    grid-column: span 2;
+  .cont-regionales .titulo-p3 {
     font-size: 1.3rem;
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cont-regionales p {
+    font-size: 1.3rem;
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
   }
   .regionales .img-reg-destacada {
     grid-column: span 2;
+    grid-row: span 2;
   }
 }
 @media (min-width: 1024px) {
-  .dulces .dulces1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vh 20vh 80vh 80vh 80vh;
-    margin: 0 auto;
+  .dulces1 .img-dulce1 {
+    grid-column: span 2;
+    grid-row: span 2;
   }
   .dulces1 .titulo-p1 {
-    grid-column: span 2;
     font-size: 1.5rem;
   }
-  .dulces .dulces1 p {
-    font-size: 1.3rem;
+  .dulces p {
+    font-size: 1.5rem;
     padding: 1em;
-    grid-column: span 2;
   }
   .dulces .dulces2 li {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .fruta {
     display: grid;
@@ -651,7 +662,7 @@ body {
     padding: 1em;
     grid-column: span 2;
   }
-  .fruta p img {
+  .fruta img {
     width: 90%;
     height: 100%;
     margin: 0 auto;
@@ -661,21 +672,10 @@ body {
     font-size: 1.3rem;
     padding: 1em;
   }
-  .regionales {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vh 20vh 80vh 80vh 80vh 80vh;
-    margin: 0 auto;
-  }
-  .regionales p {
+  .cont-regionales p {
     font-size: 1.5rem;
     padding: 1em;
     grid-column: span 2;
-  }
-  .regionales img {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
   }
   .regionales .titulo-p3 {
     grid-column: span 2;
@@ -683,7 +683,8 @@ body {
     padding: 1em;
   }
   .regionales .img-reg-destacada {
-    grid-column: span 2;
+    height: 70%;
+    width: 70%;
   }
 }
 .boton-enviar {
