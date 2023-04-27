@@ -14,6 +14,11 @@ header {
     & a:hover {
         color: white;
     }
+
+    & a:hover {
+        transform: scale(1, 1);
+    }
+
 }
 
 @media (min-width: $MQ-tablet) {

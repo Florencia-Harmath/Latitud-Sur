@@ -692,6 +692,8 @@ body {
   padding-top: 1em;
   justify-content: center;
   border-radius: 15px;
+}
+.boton-enviar :hover {
   transform: scale(1.5, 1.5);
 }
 .boton-enviar input {
@@ -715,6 +717,9 @@ header {
 }
 .nav-list-items a:hover {
   color: white;
+}
+.nav-list-items a:hover {
+  transform: scale(1, 1);
 }
 
 @media (min-width: 600px) {
