@@ -326,7 +326,7 @@ body {
   .contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10vh 20vh 80vh 80vh;
+    grid-template-rows: 10vh 80vh 80vh;
     padding: 3em;
     gap: 3em;
   }
@@ -359,11 +359,6 @@ body {
     width: 50%;
   }
 }
-h2 {
-  margin: 0 auto;
-  text-align: center;
-}
-
 .nosotros-1 {
   gap: 20px;
   align-items: center;
@@ -722,9 +717,6 @@ header {
 }
 .nav-list-items a:hover {
   color: white;
-}
-.nav-list-items a:hover {
-  transform: scale(1, 1);
 }
 
 @media (min-width: 600px) {
