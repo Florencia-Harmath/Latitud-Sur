@@ -6,18 +6,18 @@
     flex-direction: column;
     padding: 1em;
 
-    p {
-        margin: 0 auto;
-        font-size: 1rem;
-        padding: 1em;
-        text-align: center;
-    }
-
     img {
-        width: 80%;
-        height: 80%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
     }
+}
+
+.dulces p {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
 }
 
 .dulces .dulces2 {
@@ -41,8 +41,8 @@
     padding: 2em;
 
     img {
-        width: 80%;
-        height: 80%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
 
     }
@@ -65,16 +65,16 @@
     padding: 2em;
 
     img {
-        width: 80%;
-        height: 80%;
+        width: 80vh;
+        height: 80vh;
         border: 3px solid black;
     }
+}
 
-    p {
-        margin: 0 auto;
-        font-size: 1rem;
-        text-align: center;
-    }
+.cont-regionales p {
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
 }
 
 @media (min-width: $MQ-tablet) {

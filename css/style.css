@@ -528,16 +528,17 @@ body {
   flex-direction: column;
   padding: 1em;
 }
-.dulces .dulces1 p {
+.dulces .dulces1 img {
+  width: 80vh;
+  height: 80vh;
+  border: 3px solid black;
+}
+
+.dulces p {
   margin: 0 auto;
   font-size: 1rem;
   padding: 1em;
   text-align: center;
-}
-.dulces .dulces1 img {
-  width: 80%;
-  height: 80%;
-  border: 3px solid black;
 }
 
 .dulces .dulces2 {
@@ -560,8 +561,8 @@ body {
   padding: 2em;
 }
 .fruta img {
-  width: 80%;
-  height: 80%;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
 .fruta p {
@@ -580,11 +581,12 @@ body {
   padding: 2em;
 }
 .regionales img {
-  width: 80%;
-  height: 80%;
+  width: 80vh;
+  height: 80vh;
   border: 3px solid black;
 }
-.regionales p {
+
+.cont-regionales p {
   margin: 0 auto;
   font-size: 1rem;
   text-align: center;
