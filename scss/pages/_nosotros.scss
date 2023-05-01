@@ -15,8 +15,8 @@
 }
 
 .nosotros-1 .img-nosotros-1 {
-    width: 80vh;
-    height: 80vh;
+    width: 80%;
+    height: 80%;
     border: 3px solid black;
 }
 
@@ -38,8 +38,8 @@
     & img {
         display: flex;
         flex-direction: column;
-        width: 80vh;
-        height: 80vh;
+        width: 80%;
+        height: 80%;
         border: solid 3px black;
     }
 }

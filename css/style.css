@@ -92,8 +92,8 @@ body {
   padding: 2em;
 }
 .img-index img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -164,8 +164,8 @@ body {
   display: flex;
   flex-direction: row;
   border: solid 3px black;
-  height: 80vh;
-  width: 80vh;
+  height: 80%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -188,8 +188,8 @@ body {
   padding: 2em;
 }
 .img-agro img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -292,8 +292,8 @@ body {
 
 .contacto-mapa {
   display: block;
-  height: 80vh;
-  width: 80vh;
+  height: 80%;
+  width: 80%;
   padding: 2em;
   margin: 0 auto;
 }
@@ -411,8 +411,8 @@ body {
 }
 
 .nosotros-1 .img-nosotros-1 {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 
@@ -434,8 +434,8 @@ body {
 .nosotros-2 img {
   display: flex;
   flex-direction: column;
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: solid 3px black;
 }
 
@@ -535,8 +535,8 @@ body {
   text-align: center;
 }
 .dulces .dulces1 img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 
@@ -560,8 +560,8 @@ body {
   padding: 2em;
 }
 .fruta img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 .fruta p {
@@ -580,8 +580,8 @@ body {
   padding: 2em;
 }
 .regionales img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 .regionales p {
