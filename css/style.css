@@ -188,7 +188,7 @@ body {
   padding: 2em;
 }
 .img-agro img {
-  width: 80vh;
+  width: 80%;
   height: 80vh;
   border-color: black;
   border-style: solid;
@@ -529,8 +529,8 @@ body {
   padding: 1em;
 }
 .dulces .dulces1 img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 
@@ -561,8 +561,8 @@ body {
   padding: 2em;
 }
 .fruta img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 .fruta p {
@@ -581,8 +581,8 @@ body {
   padding: 2em;
 }
 .regionales img {
-  width: 80vh;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   border: 3px solid black;
 }
 
