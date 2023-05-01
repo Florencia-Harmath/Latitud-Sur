@@ -93,7 +93,7 @@ body {
 }
 .img-index img {
   width: 80%;
-  height: 80%;
+  height: 80vh;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -164,7 +164,7 @@ body {
   display: flex;
   flex-direction: row;
   border: solid 3px black;
-  height: 80%;
+  height: 80vh;
   width: 80%;
   margin: 0 auto;
 }
@@ -189,7 +189,7 @@ body {
 }
 .img-agro img {
   width: 80%;
-  height: 80%;
+  height: 80vh;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -530,7 +530,7 @@ body {
 }
 .dulces .dulces1 img {
   width: 80%;
-  height: 80%;
+  height: 80vh;
   border: 3px solid black;
 }
 
@@ -562,7 +562,7 @@ body {
 }
 .fruta img {
   width: 80%;
-  height: 80%;
+  height: 80vh;
   border: 3px solid black;
 }
 .fruta p {
@@ -582,7 +582,7 @@ body {
 }
 .regionales img {
   width: 80%;
-  height: 80%;
+  height: 80vh;
   border: 3px solid black;
 }
 
