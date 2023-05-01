@@ -24,6 +24,23 @@
         padding: 0.5em;
         text-align: center;
         background-color: rgba(205, 199, 199, 0.674);
+
+        & {
+            animation-duration: 3s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
     }
 }
 
@@ -47,7 +64,7 @@
     }
 
     .contenedor-div li {
-            font-size: 1.3rem;  
+        font-size: 1.3rem;
     }
 
 }
@@ -61,6 +78,10 @@
     .img-destacada {
         grid-column: span 1;
         margin: 0 auto;
+    }
+
+    .contenedor-div li {
+        font-size: 1.5rem;
     }
 
 }

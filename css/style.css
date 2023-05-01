@@ -17,11 +17,39 @@ ol {
 h1 {
   background-color: rgba(205, 199, 199, 0.674);
 }
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 h2 {
   text-align: center;
   font-size: 1rem;
   padding: 1em;
+}
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .logo {
@@ -91,6 +119,20 @@ body {
   text-align: center;
   background-color: rgba(205, 199, 199, 0.674);
 }
+.contenedor-div li {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 @media (min-width: 600px) {
   .img-index {
@@ -120,6 +162,9 @@ body {
   .img-destacada {
     grid-column: span 1;
     margin: 0 auto;
+  }
+  .contenedor-div li {
+    font-size: 1.5rem;
   }
 }
 .contenedor-div-agro {
