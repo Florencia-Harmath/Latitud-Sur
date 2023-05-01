@@ -21,7 +21,7 @@ h1 {
     background-color: rgba(205, 199, 199, 0.674);
 
     & {
-        animation-duration: 3s;
+        animation-duration: 2s;
         animation-name: slidein;
       }
       
@@ -46,18 +46,6 @@ h2 {
     & {
         animation-duration: 3s;
         animation-name: slidein;
-      }
-      
-      @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
       }
 }
 
