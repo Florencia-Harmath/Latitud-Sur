@@ -1,11 +1,10 @@
 header {
     background-color: rgba(30, 35, 35, 0.595);
     padding: 0.5em;
-    font-size: 1rem;
 }
 
 .nav-list-items {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 0.3em;
     color: black;
@@ -27,7 +26,7 @@ header {
     }
 
     .nav-list-items {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding-left: 1.75em;
         padding-right: 1.75em;
         display: inline-block;
@@ -37,7 +36,7 @@ header {
 
 @media (min-width: $MQ-pc) {
     .nav-list-items {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         padding: 1em;
         text-align: center;
         justify-content: space-around;

@@ -19,6 +19,7 @@ ol {
 
 h1 {
     background-color: rgba(205, 199, 199, 0.674);
+    font-size: 2rem;
 
     & {
         animation-duration: 2s;
@@ -40,7 +41,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1em;
 
     & {
@@ -70,7 +71,7 @@ body {
 
 .titulo-section {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5em;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -85,7 +86,7 @@ body {
     }
 
     h2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .titulo-section {

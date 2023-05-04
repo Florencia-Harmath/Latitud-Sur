@@ -16,6 +16,7 @@ ol {
 
 h1 {
   background-color: rgba(205, 199, 199, 0.674);
+  font-size: 2rem;
 }
 h1 {
   animation-duration: 2s;
@@ -34,7 +35,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 1em;
 }
 h2 {
@@ -61,7 +62,7 @@ body {
 
 .titulo-section {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.5em;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -73,7 +74,7 @@ body {
     width: 100%;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .titulo-section {
     font-size: 1.3rem;
@@ -93,7 +94,7 @@ body {
 }
 .img-index img {
   width: 80%;
-  height: 80vh;
+  height: 80%;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -160,23 +161,23 @@ body {
 .contenedor-div-agro {
   padding: 1em;
 }
+.contenedor-div-agro img {
+  display: none;
+}
+
 .contenedor-div-agro iframe {
-  display: flex;
   flex-direction: row;
   border: solid 3px black;
   height: 80vh;
   width: 80%;
   margin: 0 auto;
+  display: flex;
 }
 
 .p-video-agro {
   text-align: center;
   font-size: 1.1rem;
   padding: 3em;
-}
-
-.contenedor-div-agro img {
-  display: none;
 }
 
 .img-agro {
@@ -292,8 +293,8 @@ body {
 
 .contacto-mapa {
   display: block;
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   padding: 2em;
   margin: 0 auto;
 }
@@ -530,7 +531,7 @@ body {
 }
 .dulces .dulces1 img {
   width: 80%;
-  height: 80vh;
+  height: 80%;
   border: 3px solid black;
 }
 
@@ -562,12 +563,12 @@ body {
 }
 .fruta img {
   width: 80%;
-  height: 80vh;
+  height: 350px;
   border: 3px solid black;
 }
 .fruta p {
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 1em;
   text-align: center;
 }
@@ -582,7 +583,7 @@ body {
 }
 .regionales img {
   width: 80%;
-  height: 80vh;
+  height: 80%;
   border: 3px solid black;
 }
 
@@ -742,11 +743,10 @@ body {
 header {
   background-color: rgba(30, 35, 35, 0.595);
   padding: 0.5em;
-  font-size: 1rem;
 }
 
 .nav-list-items {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 0.3em;
   color: black;
@@ -766,7 +766,7 @@ header {
     justify-content: space-evenly;
   }
   .nav-list-items {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-left: 1.75em;
     padding-right: 1.75em;
     display: inline-block;
@@ -775,7 +775,7 @@ header {
 }
 @media (min-width: 1024px) {
   .nav-list-items {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1em;
     text-align: center;
     justify-content: space-around;
