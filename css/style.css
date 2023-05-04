@@ -214,15 +214,16 @@ body {
     gap: 20px;
   }
   .contenedor-div-agro iframe {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .contenedor-div-agro .paseo {
     display: grid;
     border: 3px black solid;
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
     justify-content: center;
     margin: 0 auto;
   }
@@ -234,8 +235,8 @@ body {
   }
   .img-agro img {
     margin: 0 auto;
-    height: 90%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
   }
   .p-img-agro {
     display: flex;
@@ -247,32 +248,32 @@ body {
   .contenedor-div-agro .fruta-crema {
     display: grid;
     border: solid black 3px;
-    width: 80%;
-    height: 90%;
-  }
-  .contenedor-div-agro {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(80vh, 60vh));
-    gap: 20px;
-  }
-  .contenedor-div-agro iframe {
-    grid-column: span 2;
-    align-items: center;
     width: 100%;
     height: 100%;
   }
+  .contenedor-div-agro {
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 75vh 75vh;
+    gap: 40px;
+    padding: 4em;
+  }
   .contenedor-div-agro img {
-    align-items: center;
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-div-agro iframe {
+    grid-column: span 2;
+    width: 100%;
+    height: 100%;
   }
   .img-agro {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(80vh, 20vh));
+    grid-template-rows: repeat(2, minmax(70vh, 20vh));
+    gap: 40px;
   }
   .img-agro img {
-    width: 80%;
-    height: 90%;
+    width: 95%;
+    height: 100%;
   }
   .p-video-agro {
     font-size: 1.5rem;
@@ -411,7 +412,7 @@ body {
   text-align: center;
 }
 
-.nosotros-1 .img-nosotros-1 {
+.nosotros-1 img {
   width: 80%;
   height: 80%;
   border: 3px solid black;
@@ -457,35 +458,36 @@ body {
     font-size: 1.3rem;
     padding: 1em;
   }
-  .nosotros-1 .img-nosotros-1 {
-    width: 80vh;
-    height: 80vh;
-  }
-  .nosotros-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .nosotros-2 img {
-    width: 80vh;
-    height: 80vh;
-    margin: 0 auto;
-  }
 }
+.nosotros-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.nosotros-2 img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 @media (min-width: 1024px) {
-  .nosotros-1 .img-nosotros-destacada {
-    display: flex;
-    border: solid black 3px;
-  }
   .nosotros-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20vh 100vh;
+    gap: 20px;
   }
   .nosotros-1 img {
-    width: 80vh;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
+  }
+  .nosotros-1 .img-nosotros-destacada {
+    display: flex;
+    border: solid black 3px;
+    width: 100%;
+    height: 100%;
   }
   .nosotros-1 .p-nosotros-1 {
     grid-column: span 2;
@@ -508,16 +510,16 @@ body {
     display: flex;
     border: solid black 3px;
     justify-content: center;
-    width: 80vh;
-    height: 80vh;
+    width: 100%;
+    height: 100% vh;
     margin: 0 auto;
   }
   .nosotros-2 .img2-nos-2-destacada {
     display: flex;
     border: solid black 3px;
     justify-content: center;
-    width: 80vh;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
 }
@@ -597,18 +599,18 @@ body {
   .dulces .dulces1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, minmax(65vh, 20vh));
+    grid-template-rows: repeat(3, minmax(65vh, 20vh));
     margin: 0 auto;
     padding: 1em;
+    gap: 20px;
   }
   .dulces .dulces1 img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .dulces1 .img-dulce1 {
     grid-column: span 2;
-    grid-row: span 2;
   }
   .dulces .titulo-p1 {
     font-size: 1.3rem;
@@ -630,6 +632,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15vh 15vh 80vh;
     margin: 0 auto;
+    gap: 20px;
   }
   .fruta p {
     font-size: 1.3rem;
@@ -637,8 +640,8 @@ body {
     grid-column: span 2;
   }
   .fruta img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .fruta .titulo-p2 {
@@ -649,12 +652,13 @@ body {
   .regionales {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, minmax(65vh, 20vh));
+    grid-template-rows: repeat(4, minmax(65vh, 20vh));
     margin: 0 auto;
+    gap: 20px;
   }
   .regionales img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .cont-regionales .titulo-p3 {
@@ -671,10 +675,22 @@ body {
   }
   .regionales .img-reg-destacada {
     grid-column: span 2;
-    grid-row: span 2;
   }
 }
 @media (min-width: 1024px) {
+  .dulces .dulces1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 45vh 45vh 75vh 75vh;
+    margin: 0 auto;
+    padding: 1em;
+    gap: 20px;
+  }
+  .dulces .dulces1 img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
   .dulces1 .img-dulce1 {
     grid-column: span 2;
     grid-row: span 2;
@@ -701,14 +717,29 @@ body {
     grid-column: span 2;
   }
   .fruta img {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
   .fruta .titulo-p2 {
     grid-column: span 2;
     font-size: 1.3rem;
     padding: 1em;
+  }
+  .regionales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 45vh 45vh 75vh 75vh 75vh;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .regionales img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .regionales .img-reg-destacada {
+    grid-row: span 2;
   }
   .cont-regionales p {
     font-size: 1.5rem;
@@ -719,10 +750,6 @@ body {
     grid-column: span 2;
     font-size: 1.5rem;
     padding: 1em;
-  }
-  .regionales .img-reg-destacada {
-    height: 70%;
-    width: 70%;
   }
 }
 .boton-enviar {
@@ -766,7 +793,7 @@ header {
     justify-content: space-evenly;
   }
   .nav-list-items {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 1.75em;
     padding-right: 1.75em;
     display: inline-block;
@@ -836,10 +863,10 @@ header {
   .footer-1 p {
     display: inline;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .footer-2 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 

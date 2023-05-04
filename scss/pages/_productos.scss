@@ -83,20 +83,20 @@
     .dulces .dulces1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, minmax(65vh, 20vh));
+        grid-template-rows: repeat(3, minmax(65vh, 20vh));
         margin: 0 auto;
         padding: 1em;
+        gap: 20px;
 
         img {
-            width: 80%;
-            height: 90%;
+            width: 100%;
+            height: 100%;
             margin: 0 auto;
         }
     }
 
     .dulces1 .img-dulce1 {
         grid-column: span 2;
-        grid-row: span 2;
     }
 
     .dulces .titulo-p1 {
@@ -122,6 +122,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 15vh 15vh 80vh;
         margin: 0 auto;
+        gap: 20px;
 
         p {
             font-size: 1.3rem;
@@ -130,8 +131,8 @@
         }
 
         img {
-            width: 80%;
-            height: 90%;
+            width: 100%;
+            height: 100%;
             margin: 0 auto;
         }
     }
@@ -145,12 +146,13 @@
     .regionales {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, minmax(65vh, 20vh));
+        grid-template-rows: repeat(4, minmax(65vh, 20vh));
         margin: 0 auto;
+        gap: 20px;
 
         img {
-            width: 80%;
-            height: 90%;
+            width: 100%;
+            height: 100%;
             margin: 0 auto;
         }
     }
@@ -171,17 +173,32 @@
 
     .regionales .img-reg-destacada {
         grid-column: span 2;
-        grid-row: span 2;
     }
 
 }
 
 @media (min-width: $MQ-pc) {
 
+    .dulces .dulces1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 45vh 45vh 75vh 75vh;
+        margin: 0 auto;
+        padding: 1em;
+        gap: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    }
+
     .dulces1 .img-dulce1 {
         grid-column: span 2;
         grid-row: span 2;
     }
+
 
     .dulces1 .titulo-p1 {
         font-size: 1.5rem;
@@ -209,13 +226,12 @@
         }
 
         img {
-            width: 80%;
-            height: 90%;
+            width: 100%;
+            height: 100%;
             margin: 0 auto;
         }
 
     }
-
 
     .fruta .titulo-p2 {
         grid-column: span 2;
@@ -223,6 +239,23 @@
         padding: 1em;
     }
 
+    .regionales {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 45vh 45vh 75vh 75vh 75vh;
+        margin: 0 auto;
+        gap: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .regionales .img-reg-destacada {
+        grid-row: span 2;
+    }
 
     .cont-regionales p {
         font-size: 1.5rem;
@@ -236,9 +269,5 @@
         padding: 1em;
     }
 
-    .regionales .img-reg-destacada {
-        height: 70%;
-        width: 70%;
-    }
 
 }
