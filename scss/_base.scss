@@ -20,7 +20,6 @@ ol {
 h1 {
     background-color: rgba(205, 199, 199, 0.674);
     text-shadow: 2px 2px 5px rgb(52, 50, 50);
-    font-size: 2rem;
     padding: 1em;
 
     & {
@@ -45,7 +44,7 @@ h2 {
     background-color: rgba(205, 199, 199, 0.674);
     text-shadow: 2px 2px 5px rgb(82, 78, 78);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 
     & {
         animation-duration: 3s;
@@ -74,7 +73,7 @@ body {
 
 .titulo-section {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
 }
@@ -88,11 +87,11 @@ body {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .titulo-section {
-        font-size: 2rem;
+        font-size: 2.3rem;
         justify-items: center;
     }
 
