@@ -16,6 +16,7 @@ ol {
 
 h1 {
   background-color: rgba(205, 199, 199, 0.674);
+  text-shadow: 2px 2px 5px rgb(52, 50, 50);
   font-size: 2rem;
   padding: 1em;
 }
@@ -36,6 +37,7 @@ h1 {
 
 h2 {
   background-color: rgba(205, 199, 199, 0.674);
+  text-shadow: 2px 2px 5px rgb(82, 78, 78);
   text-align: center;
   font-size: 1rem;
 }
@@ -156,26 +158,35 @@ body {
     font-size: 1.5rem;
   }
 }
+.contenedor-div-agro iframe {
+  flex-direction: row;
+  border: solid 3px black;
+  height: 80vh;
+  width: 80vh;
+  margin: 0 auto;
+  display: flex;
+}
+
 .contenedor-div-agro {
-  padding: 1em;
+  padding: 3em;
+}
+.contenedor-div-agro p {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(202, 194, 194);
+  box-shadow: 2px 2px;
+  border-radius: 30px;
+  font-size: 1rem;
+  padding: 2em;
 }
 .contenedor-div-agro img {
   display: none;
 }
 
-.contenedor-div-agro iframe {
-  flex-direction: row;
-  border: solid 3px black;
-  height: 80vh;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-}
-
 .p-video-agro {
   text-align: center;
   font-size: 1.1rem;
-  padding: 3em;
+  padding: 2em;
 }
 
 .img-agro {
@@ -189,7 +200,7 @@ body {
 .img-agro img {
   width: 80%;
   height: 350px;
-  object-fit: contain;
+  border: solid 3px black;
 }
 
 .p-img-agro {
@@ -203,24 +214,37 @@ body {
   .p-video-agro {
     font-size: 1.3rem;
   }
+  .contenedor-div-agro .moras-agro {
+    display: grid;
+  }
+  .contenedor-div-agro .frambuesas-agro {
+    display: grid;
+  }
+  .contenedor-div-agro .p-cont-agro1 {
+    display: grid;
+  }
+  .contenedor-div-agro .p-cont-agro2 {
+    display: grid;
+  }
   .contenedor-div-agro {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55vh 55vh 55vh;
     margin: 0 auto;
-    gap: 20px;
+    gap: 50px;
   }
   .contenedor-div-agro iframe {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    grid-column: span 2;
   }
-  .contenedor-div-agro .paseo {
-    display: grid;
+  .contenedor-div-agro img {
     width: 100%;
     height: 100%;
-    gap: 20px;
-    justify-content: center;
+    object-fit: cover;
     margin: 0 auto;
+    border: 3px solid black;
   }
   .img-agro {
     display: grid;
@@ -232,7 +256,8 @@ body {
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border: solid 3px black;
   }
   .p-img-agro {
     display: flex;
@@ -241,34 +266,24 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .contenedor-div-agro .fruta-crema {
-    display: grid;
-  }
   .contenedor-div-agro {
-    grid-template-columns: 2 1fr;
-    grid-template-rows: 75vh 75vh;
-    gap: 40px;
-    padding: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90vh 55vh 55vh;
+    margin: 0 auto;
+    gap: 80px;
   }
-  .contenedor-div-agro img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .contenedor-div-agro iframe {
-    grid-column: span 2;
-    width: 100%;
-    height: 100%;
+  .contenedor-div-agro p {
+    font-size: 1.5rem;
   }
   .img-agro {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(70vh, 20vh));
-    gap: 40px;
+    grid-template-rows: repeat(2, minmax(60vh, 20vh));
+    gap: 50px;
   }
   .img-agro img {
-    width: 95%;
-    height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border: solid 3px black;
   }
   .p-video-agro {
     font-size: 1.5rem;
@@ -303,12 +318,13 @@ body {
 
 .contactanos {
   background-color: rgba(205, 199, 199, 0.674);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   border: 2px solid black;
   margin: 0 auto;
   width: 80%;
   font-size: 1rem;
-  padding: 2em;
+  padding: 1em;
 }
 
 .contactanos .formulario {
@@ -757,7 +773,7 @@ body {
   transform: scale(1.5, 1.5);
 }
 .boton-enviar input {
-  font-size: 0.5rem;
+  font-size: 1rem;
   background-color: rgba(207, 203, 203, 0.714);
   padding: 0.5em;
 }
@@ -773,6 +789,7 @@ header {
   padding: 0.3em;
   color: black;
   justify-content: space-around;
+  text-shadow: 2px 2px 5px rgb(52, 50, 50);
 }
 .nav-list-items a:hover {
   color: white;

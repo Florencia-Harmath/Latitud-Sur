@@ -24,12 +24,13 @@
 
 .contactanos {
     background-color: rgba(205, 199, 199, 0.674);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     border: 2px solid black;
     margin: 0 auto;
     width: 80%;
     font-size: 1rem;
-    padding: 2em;
+    padding: 1em;
 }
 
 .contactanos .formulario {
