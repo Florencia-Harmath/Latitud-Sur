@@ -309,12 +309,6 @@ body {
   margin: 0 auto;
 }
 
-.contactanos .p-contacto-formulario {
-  text-align: center;
-  font-size: 1.1rem;
-  padding-bottom: 1em;
-}
-
 .contactanos {
   background-color: rgba(205, 199, 199, 0.674);
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.19);
@@ -322,13 +316,26 @@ body {
   border: 2px solid black;
   margin: 0 auto;
   width: 80%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1em;
 }
-
 .contactanos .formulario {
   outline: none;
   padding: 0.3em;
+}
+.contactanos .p-contacto-formulario {
+  text-align: center;
+  font-size: 1.1rem;
+  padding-bottom: 1em;
+}
+
+.div-formulario textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
 }
 
 .c-formulario {
@@ -340,18 +347,9 @@ body {
   text-align: center;
 }
 
-.formulario {
-  padding: 2em;
-}
-
 @media (min-width: 600px) {
   .contacto {
     padding: 10px;
-  }
-  .contacto-mapa {
-    width: 100vh;
-    height: 100vh;
-    margin: 0 auto;
   }
   .contacto .p-contacto-ubi {
     font-size: 1.3rem;
@@ -359,9 +357,16 @@ body {
   .contacto .paisaje-contacto {
     display: block;
     margin: 0 auto;
-    width: 90vh;
-    height: 80vh;
+    width: 70vh;
+    height: 70vh;
     border: solid 3px black;
+    object-fit: cover;
+  }
+  .contacto-mapa {
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    object-fit: cover;
   }
   .contactanos {
     display: block;
@@ -377,16 +382,11 @@ body {
     padding: 3em;
     gap: 3em;
   }
-  .p-contacto-ubi {
-    grid-column: span 2;
-    font-size: 1.5rem;
-  }
   .contacto .paisaje-contacto {
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: center;
-    border: 3px solid black;
   }
   .contacto .paisaje-contacto2 {
     display: flex;
@@ -394,6 +394,7 @@ body {
     width: 100%;
     justify-content: center;
     border: 3px solid black;
+    object-fit: cover;
   }
   .contacto .contacto-mapa {
     display: flex;
@@ -401,6 +402,10 @@ body {
     height: 100%;
     width: 90%;
     justify-content: center;
+  }
+  .p-contacto-ubi {
+    grid-column: span 2;
+    font-size: 1.5rem;
   }
   .contactanos {
     width: 50%;
@@ -447,9 +452,6 @@ body {
   padding: 1em;
   text-align: center;
   align-items: center;
-  background-color: rgb(202, 194, 194);
-  box-shadow: 2px 2px;
-  border-radius: 30px;
 }
 
 .nosotros-3 {
@@ -542,9 +544,6 @@ body {
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
-    background-color: rgb(202, 194, 194);
-    box-shadow: 2px 2px;
-    border-radius: 30px;
     grid-column: span 2;
   }
   .nosotros-2 {
@@ -592,9 +591,6 @@ body {
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
-    background-color: rgb(202, 194, 194);
-    box-shadow: 2px 2px;
-    border-radius: 30px;
   }
 }
 .dulces .dulces1 {
@@ -881,10 +877,9 @@ body {
   display: flex;
   padding-top: 1em;
   justify-content: center;
-  border-radius: 15px;
 }
 .boton-enviar :hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.1, 1.1);
 }
 .boton-enviar input {
   font-size: 1rem;

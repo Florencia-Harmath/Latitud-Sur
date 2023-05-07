@@ -16,12 +16,6 @@
     margin: 0 auto;
 }
 
-.contactanos .p-contacto-formulario {
-    text-align: center;
-    font-size: 1.1rem;
-    padding-bottom: 1em;
-}
-
 .contactanos {
     background-color: rgba(205, 199, 199, 0.674);
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.19);
@@ -29,13 +23,30 @@
     border: 2px solid black;
     margin: 0 auto;
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1em;
+
+    .formulario {
+        outline: none;
+        padding: .3em;
+
+    }
+
+    .p-contacto-formulario {
+        text-align: center;
+        font-size: 1.1rem;
+        padding-bottom: 1em;
+    }
+
 }
 
-.contactanos .formulario {
-    outline: none;
-    padding: .3em;
+.div-formulario textarea {
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
 }
 
 .c-formulario {
@@ -48,33 +59,32 @@
     }
 }
 
-.formulario {
-    padding: 2em;
-}
 
 @media (min-width: $MQ-tablet) {
 
     .contacto {
         padding: 10px;
+
+        .p-contacto-ubi {
+            font-size: 1.3rem;
+        }
+
+        .paisaje-contacto {
+            display: block;
+            margin: 0 auto;
+            width: 70vh;
+            height: 70vh;
+            border: solid 3px black;
+            object-fit: cover;
+        }
+
     }
 
     .contacto-mapa {
-        width: 100vh;
-        height: 100vh;
-        margin: 0 auto;
-    }
-
-
-    .contacto .p-contacto-ubi {
-        font-size: 1.3rem;
-    }
-
-    .contacto .paisaje-contacto {
-        display: block;
-        margin: 0 auto;
-        width: 90vh;
+        width: 100%;
         height: 80vh;
-        border: solid 3px black;
+        margin: 0 auto;
+        object-fit: cover;
     }
 
     .contactanos {
@@ -94,35 +104,36 @@
         grid-template-rows: 10vh 80vh 80vh;
         padding: 3em;
         gap: 3em;
+
+        .paisaje-contacto {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .paisaje-contacto2 {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            border: 3px solid black;
+            object-fit: cover;
+        }
+
+        .contacto-mapa {
+            display: flex;
+            grid-column: span 2;
+            height: 100%;
+            width: 90%;
+            justify-content: center;
+        }
+
     }
 
     .p-contacto-ubi {
         grid-column: span 2;
         font-size: 1.5rem;
-    }
-
-    .contacto .paisaje-contacto {
-        display: flex;
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        border: 3px solid black;
-    }
-
-    .contacto .paisaje-contacto2 {
-        display: flex;
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        border: 3px solid black;
-    }
-
-    .contacto .contacto-mapa {
-        display: flex;
-        grid-column: span 2;
-        height: 100%;
-        width: 90%;
-        justify-content: center;
     }
 
     .contactanos {

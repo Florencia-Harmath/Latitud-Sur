@@ -2,10 +2,9 @@
     display: flex;
     padding-top: 1em;
     justify-content: center;
-    border-radius: 15px;
 
     & :hover {
-        transform: scale(1.5,1.5);
+        transform: scale(1.1,1.1);
     }
         
     & input {
