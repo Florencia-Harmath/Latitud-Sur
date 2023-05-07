@@ -133,13 +133,6 @@
         grid-column: span 2;
     }
 
-    .dulces .titulo-p1 {
-        font-size: 1.3rem;
-        padding: 1.2em;
-        text-align: center;
-        margin: 0 auto;
-    }
-
     .dulces p {
         font-size: 1.3rem;
         padding: 1em;
@@ -197,12 +190,6 @@
 
     }
 
-    .fruta .titulo-p2 {
-        grid-column: span 2;
-        font-size: 1.3rem;
-        padding: 1em;
-    }
-
     .regionales {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -216,13 +203,6 @@
             margin: 0 auto;
             object-fit: cover;
         }
-    }
-
-    .cont-regionales .titulo-p3 {
-        font-size: 1.3rem;
-        padding: 1em;
-        text-align: center;
-        margin: 0 auto;
     }
 
     .cont-regionales p {
@@ -260,11 +240,6 @@
         grid-row: span 2;
     }
 
-
-    .dulces1 .titulo-p1 {
-        font-size: 1.5rem;
-    }
-
     .dulces p {
         font-size: 1.5rem;
         padding: 1em;
@@ -294,12 +269,6 @@
 
     }
 
-    .fruta .titulo-p2 {
-        grid-column: span 2;
-        font-size: 1.3rem;
-        padding: 1em;
-    }
-
     .regionales {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -323,12 +292,5 @@
         padding: 1em;
         grid-column: span 2;
     }
-
-    .regionales .titulo-p3 {
-        grid-column: span 2;
-        font-size: 1.5rem;
-        padding: 1em;
-    }
-
 
 }

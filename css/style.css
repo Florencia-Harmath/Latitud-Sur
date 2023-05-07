@@ -18,6 +18,10 @@ h1 {
   background-color: rgba(205, 199, 199, 0.674);
   text-shadow: 2px 2px 5px rgb(52, 50, 50);
   padding: 1em;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 h1 {
   animation-duration: 2s;
@@ -62,13 +66,6 @@ body {
   background: linear-gradient(rgb(216, 211, 211) 0% 60%, rgb(141, 121, 121));
 }
 
-.titulo-section {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
 @media (min-width: 600px) {
   .logo img {
     height: 45vh;
@@ -77,7 +74,7 @@ body {
   h2 {
     font-size: 2rem;
   }
-  .titulo-section {
+  h1 {
     font-size: 2.3rem;
     justify-items: center;
   }
@@ -712,12 +709,6 @@ body {
   .dulces1 .img-dulce1 {
     grid-column: span 2;
   }
-  .dulces .titulo-p1 {
-    font-size: 1.3rem;
-    padding: 1.2em;
-    text-align: center;
-    margin: 0 auto;
-  }
   .dulces p {
     font-size: 1.3rem;
     padding: 1em;
@@ -764,11 +755,6 @@ body {
     grid-column: span 2;
     padding: 1em;
   }
-  .fruta .titulo-p2 {
-    grid-column: span 2;
-    font-size: 1.3rem;
-    padding: 1em;
-  }
   .regionales {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -781,12 +767,6 @@ body {
     height: 100%;
     margin: 0 auto;
     object-fit: cover;
-  }
-  .cont-regionales .titulo-p3 {
-    font-size: 1.3rem;
-    padding: 1em;
-    text-align: center;
-    margin: 0 auto;
   }
   .cont-regionales p {
     font-size: 1.3rem;
@@ -816,9 +796,6 @@ body {
     grid-column: span 2;
     grid-row: span 2;
   }
-  .dulces1 .titulo-p1 {
-    font-size: 1.5rem;
-  }
   .dulces p {
     font-size: 1.5rem;
     padding: 1em;
@@ -842,11 +819,6 @@ body {
     height: 100%;
     margin: 0 auto;
   }
-  .fruta .titulo-p2 {
-    grid-column: span 2;
-    font-size: 1.3rem;
-    padding: 1em;
-  }
   .regionales {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -866,11 +838,6 @@ body {
     font-size: 1.5rem;
     padding: 1em;
     grid-column: span 2;
-  }
-  .regionales .titulo-p3 {
-    grid-column: span 2;
-    font-size: 1.5rem;
-    padding: 1em;
   }
 }
 .boton-enviar {

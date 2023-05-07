@@ -21,6 +21,10 @@ h1 {
     background-color: rgba(205, 199, 199, 0.674);
     text-shadow: 2px 2px 5px rgb(52, 50, 50);
     padding: 1em;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
 
     & {
         animation-duration: 2s;
@@ -71,13 +75,6 @@ body {
     background: linear-gradient(rgb(216, 211, 211) 0% 60%, rgb(141, 121, 121));
 }
 
-.titulo-section {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-
 
 @media (min-width: $MQ-tablet) {
 
@@ -90,7 +87,7 @@ body {
         font-size: 2rem;
     }
 
-    .titulo-section {
+    h1 {
         font-size: 2.3rem;
         justify-items: center;
     }
