@@ -166,7 +166,7 @@ body {
 }
 
 .contenedor-div-agro {
-  padding: 3em;
+  padding: 2em;
 }
 .contenedor-div-agro p {
   text-align: center;
@@ -645,6 +645,9 @@ body {
   padding: 1em;
   text-align: center;
 }
+.fruta h2 {
+  text-align: center;
+}
 
 .frutos-rojos {
   gap: 20px;
@@ -755,7 +758,6 @@ body {
   }
   .frutos-rojos h2 {
     grid-column: span 2;
-    padding: 1em;
   }
   .regionales {
     display: grid;
