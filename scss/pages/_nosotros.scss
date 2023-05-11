@@ -22,52 +22,11 @@
 }
 
 .nosotros-2 {
-    gap: 20px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    padding: 2em;
-
-    img {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 80%;
-        border: solid 3px black;
-        object-fit: cover;
-    }
-
-    p {
-        font-size: 1.1rem;
-        padding: 1em;
-        text-align: center;
-        align-items: center;
-    }
+    @extend .nosotros-1
 }
 
 .nosotros-3 {
-    gap: 20px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-
-    img {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 80%;
-        border: solid 3px black;
-        object-fit: cover;
-    }
-
-    p {
-        display: flex;
-        font-size: 1.1rem;
-        padding: 1em;
-        text-align: center;
-    }
+    @extend .nosotros-1
 }
 
 .nosotros-2 .img1-nos-2-destacada {
@@ -79,7 +38,8 @@
 }
 
 @media (min-width: $MQ-tablet) {
-    .nosotros-1 p {
+    .nosotros-1 {
+        p {
         font-size: 1.3rem;
         padding: 1em;
     }
@@ -104,6 +64,8 @@
     }
 }
 
+
+}
 .nosotros-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -188,7 +150,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 15vh 80vh;
-        gap: 50px;
+        gap: 20px;
         padding: 2em;
 
         img {
@@ -205,14 +167,6 @@
             align-items: center;
         }
     }
-
-
-
-
-
-
-
-
 
 
 }
